@@ -1,0 +1,281 @@
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+
+body {
+	line-height: 1;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/59/10/3657a3ef9fea887.jpg ");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	position: relative;
+	overflow-x: hidden;
+	font-family: open sans;
+	background-repeat: no-repeat;
+
+
+
+}
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	background-color: #00002c99;
+	animation-delay: 0.5s;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header ul{
+	line-height: 60px;
+	display:flex;
+}
+header ul li{
+	flex: 1;
+	text-align: center;
+}
+header ul li a{
+	color: #8e8e8e;
+	text-decoration: none;
+	text-transform: uppercase;
+font-size: 14px;
+}
+
+header ul li a.current{
+	color: #fff;}
+.education h1{
+	color: #fff;
+	font-size: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    width: 65%;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+    box-shadow: 4px 4px 5px #fff;
+    word-wrap: break-word;
+    margin-top: 8%;
+
+}
+
+.education h2
+{
+color: #fff;
+	line-height: 40px;
+	font-size: 20px;	
+}
+.intro-heading{
+	text-align: center;
+	margin-top: 32%;
+
+}
+.intro-heading h4{
+	font-size: 18px;
+	font-family: orator std;
+	text-transform: uppercase;
+	color: #fff;
+	animation-delay: 2s;
+
+
+}
+.intro-heading h3{
+	font-size: 52px;
+	font-weight: 250;
+	text-transform: uppercase;
+	color: grey;
+	animation-delay: 3s;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.img
+{
+	position: absolute;
+	display: block;
+	top: 100px;
+	left: 550px;
+	width: 50px;
+	height: 50px;
+}
+.education h3
+{
+color: #fff;
+	line-height: 40px;
+	font-size: 20px;	
+}
+.education h1{
+	color: #fff;
+	font-size: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    width: 65%;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+    box-shadow: 4px 4px 5px #fff;
+    word-wrap: break-word;
+    margin-top: 8%;
+
+}
+
+.education h2
+{
+color: #fff;
+	line-height: 40px;
+	font-size: 20px;
+	
+		
+}
+.skills h3{
+	color: #fff;
+	font-size: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    width: 82%;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+    box-shadow: 4px 4px 5px #fff;
+    word-wrap: break-word;
+    margin-top: 8%;
+
+}
+
+.skills ol
+{
+    color: #fff;
+	line-height: 40px;
+	font-size: 20px;	
+}
+.Certifications h2{
+	color: #fff;
+	font-size: 33px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    width: 40%;
+	padding-bottom: 18px;
+	margin-bottom: 20px;
+    box-shadow: 4px 4px 5px #fff;
+    word-wrap: break-word;
+    margin-top: 8%;
+
+}
+
+.Certifications ul
+{
+    color: #fff;
+	line-height: 32px;
+	font-size: 25px;	
+}
+
+
+.contact h3{
+	color: #fff;
+	font-size: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+    width: 40%;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+    box-shadow: 4px 4px 5px #fff;
+    word-wrap: break-word;
+    margin-top: 8%;
+
+}
+
+.contact ol
+{
+    color: #fff;
+	line-height: 40px;
+	font-size: 20px;	
+}
+.fa{
+	padding: 15px;
+	font-size: 20px;
+	width: 60px;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin: 0px 80px 0px 200px;
+	align-content:space-around ;
+
+
+
+}
+.fa:hover{
+	opacity: 1.0;
+}
+.fa-facebook{
+	background: #3B5998;
+	color: white;
+	opacity: 0.5;
+	}
+.fa-linkedin{
+	background: #007bb5;
+	color: white;
+	opacity: 0.5;
+}
+.fa-instagram{
+	background: #cb2027;
+	color: white;
+	opacity: 0.5;
+}
+.flexbox{
+	display: flex;
+	position: absolute;
+	top: 70px;
+	left: 400px;
+	width: 712px;
+	height: 405px;
+
+
+	background-color: black;
+	opacity: 0.3
+}
+.hightlights h3{
+	color: #fff;
+	font-size: 20px;
+    margin-top: 8%;
+
+}
+
+.highlights ol
+{
+    color: #fff;
+	line-height: 40px;
+	font-size: 20px;	
+}
